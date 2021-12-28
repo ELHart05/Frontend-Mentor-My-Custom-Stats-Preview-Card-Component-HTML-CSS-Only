@@ -88,8 +88,8 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: hsl(277, 64%, 61%);
-    opacity: 0.25;
+    background-color: hsl(277, 100%, 61%);
+    opacity: 0.4;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
