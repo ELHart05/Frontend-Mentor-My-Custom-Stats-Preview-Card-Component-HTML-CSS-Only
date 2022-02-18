@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    background-image: url(../images/bg-pattern-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-attachment: fixed;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: hsl(0, 36%, 91%);
+}
+
+
+.main_bg_desk {
+    height: 100vmin;
+    float: right;
+}
+
+
+.main_bg_phone {
+    display: none;
+}
+
+
+.logo {
+    margin: 5% 0px 0px 10%;
+}
+
+
+h1 {
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.l1 {
+    display: block;
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+
+.l2 {
+    display: block;
+    color: hsl(0, 6%, 24%);
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.l3 {
+    display: block;
+    color: hsl(0, 6%, 24%);
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+
+.paragraph {
+    margin-top: 2%;
+    margin-left: 10%;
+    padding: 20px 0;
+    line-height: 24px;
+    font-size: 20px;
+    color: hsl(0, 36%, 70%);
+    width: 28%;
+}
+
+
+.email {
+    border: 1px solid hsl(0, 36%, 70%);
+    font-family: 'Josefin Sans', sans-serif;
+    width: 320px;
+    height: 45px;
+    border-radius: 400px;
+    background-color: transparent;
+    color: hsl(0, 36%, 70%);
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.email:focus {
+    outline: transparent;
+}
+
+.button {
+    border: 1px solid transparent;
+    border-radius: 400px;
+    height: 48px;
+    width: 72px;
+    cursor: pointer;
+    transform: translate(-78%, 6px);
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+.button:hover {
+    background-image: linear-gradient(135deg, hsl(0, 40%, 87%), hsl(0, 80%, 86%));
+}
+
+.arrow {
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+
+
+
+@media (max-width: 1025px) and (min-width: 100px) {
+    body {
+        background-color: hsl(0, 36%, 91%);
+        background-image: none;
+    }
+
+
+    .logo {
+        margin-top: 7%;
+    }
+
+
+    .main_bg_desk {
+        display: none;
+    }
+
+    .main_bg_phone {
+        display: block;
+        width: 100%;
+        margin-top: 6%;
+    }
+
+
+    h1 {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 14%;
+    }
+
+
+    .paragraph {
+        width: 100%;
+        padding: 0;
+        margin: 50px 0 0 0;
+        text-align: center;
+    }
+
+
+
+    .email {
+        width: 60%;
+        font-size: 16px;
+        margin-top: 12%;
+        margin-bottom: 20px;
+        margin-left: 13%;
+    }
+
+    .button {
+        width: 17%;
+        margin-left: 2%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 340px) and (min-width: 100px) {
+    body {
+        background-color: hsl(0, 36%, 91%);
+        background-image: none;
+    }
+
+
+    .logo {
+        margin-top: 7%;
+    }
+
+
+    .main_bg_desk {
+        display: none;
+    }
+
+    .main_bg_phone {
+        display: block;
+        width: 100%;
+        margin-top: 6%;
+    }
+
+
+    h1 {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 14%;
+    }
+
+
+    .paragraph {
+        margin-left: 0px;
+        margin-top: 5%;
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    .email {
+        width: 50%;
+        font-size: 16px;
+        margin-top: 12%;
+        margin-bottom: 20px;
+        margin-left: 13%;
+    }
+
+    .button {
+        width: 17%;
+        margin-left: 2%;
+        margin-bottom: 20px;
+    }
+}
